@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-blocus.css">
+    <title>Blocus | Michel Tran</title>
+    <link rel="shortcut icon" href="./assets/MT.png" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./index.html#texte_apropos">A propos</a></li>
+                <li><a href="./index.html#texte_travaux">Travaux</a></li>
+                <li><a href="./index.html#texte_compétences">Compétences</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <ul class="image_gauche">
+            <li><h1>BLOCUS</h1></li>
+            <li><img src="./assets/test 400.png" alt="image jeu"></li>
+            <li><div class="lien">
+                <a href="#" target="_blank"><h5>En savoir plus</h5></a>
+            </div></li>
+        </ul>
+        <ul class="texte_droite">
+            <li><h1>STATUS : FINI</h1></li>
+            <li>
+                Durant ce projet de groupe, nous avons dû réaliser un jeu où deux joueurs se déplacent sur une grille en tentant de se bloquer mutuellement.
+                L'intégralité du programme a été produit en C89.<br><br>
+                Le terrain de jeu prend la forme d'une grille carrée dont la taille sera choisie à chaque partie entre 3 et 9. 
+                L'un après l'autre les deux joueurs choisissent une case où placer leur pion (les deux pions ne peuvent pas partager la même case).<br><br>
+                Une fois le terrain mis en place, les joueurs alternent les tours. Durant le tour d'un joueur, il doit déplacer son pion vers une case adjacente 
+                (y compris en diagonale), puis choisir une case libre qui sera condamnée. Le premier joueur qui ne peut pas déplacer son pion 
+                (car toutes les cases adjacentes sont condamnées ou occupées) a perdu.<br><br>
+                L'interface du jeu sera contrôlée entièrement à la souris et consistera en trois écrans. Le premier écran proposera de choisir la taille du terrain de jeu, et de démarrer une partie à un ou deux joueurs. 
+                Le deuxième écran permet de jouer la partie. Le troisième écran affiche le 
+                gagnant et permet de choisir entre terminer le programme et lancer une nouvelle partie.<br><br>
+                Dans une partie à un seul joueur, le programme simule le deuxième joueur.
+            </li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h1>CONTACT</h1>
+        <div class="container2">
+            <ul class="logos">
+                <li><a href="https://github.com/TrnMichel" target="_blank"><img src="./assets/git.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/michel-tran-569282341/" target="_blank"><img src="./assets/linkedin2.png"></a></li>
+                <div class="mail">
+                <li><a href="mailto:michel1.tran@etu.u-pec.fr" target="_blank"><img src="./assets/mail.png"></a></li></div>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
